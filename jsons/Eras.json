@@ -1,0 +1,9 @@
+[
+	{
+		"name": "Ancient era",
+		"startingSettlerCount": 1,
+		"startingWorkerCount": 0,
+		"startingMilitaryUnitCount": 0,
+		"settlerPopulation": 1
+	}
+]

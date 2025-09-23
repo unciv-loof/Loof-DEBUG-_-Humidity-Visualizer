@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"cost": 100,
+		"uniques": [
+			"Founds a new city <by consuming this unit>"
+		]
+	},
+	{
+		"name": "Warrior",
+		"unitType": "Sword",
+		"strength": 8,
+		"cost": 40
+	}
+]

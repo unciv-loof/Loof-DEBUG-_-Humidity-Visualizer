@@ -1,0 +1,129 @@
+[
+	// Water terrains
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"RGB": [0, 0, 0]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"RGB": [0, 0, 0]
+	},
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"RGB": [0, 0, 0],
+		"uniques": [
+			"Fresh water"
+		]
+	},
+	
+	
+	
+	// Land terrains
+	{
+		"name": "Hum0",
+		"type": "Land",
+		"RGB": [242, 242, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.00] and [0.10]"
+		]
+	},
+	{
+		"name": "Hum1",
+		"type": "Land",
+		"RGB": [216, 216, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.10] and [0.20]"
+		]
+	},
+	{
+		"name": "Hum2",
+		"type": "Land",
+		"RGB": [191, 191, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.20] and [0.30]"
+		]
+	},
+	{
+		"name": "Hum3",
+		"type": "Land",
+		"RGB": [165, 165, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.30] and [0.40]"
+		]
+	},
+	{
+		"name": "Hum4",
+		"type": "Land",
+		"RGB": [140, 140, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.40] and [0.50]"
+		]
+	},
+	{
+		"name": "Hum5",
+		"type": "Land",
+		"RGB": [114, 114, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.50] and [0.60]"
+		]
+	},
+	{
+		"name": "Hum6",
+		"type": "Land",
+		"RGB": [89, 89, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.60] and [0.70]"
+		]
+	},
+	{
+		"name": "Hum7",
+		"type": "Land",
+		"RGB": [63, 63, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.70] and [0.80]"
+		]
+	},
+	{
+		"name": "Hum8",
+		"type": "Land",
+		"RGB": [38, 38, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.80] and [0.90]"
+		]
+	},
+	{
+		"name": "Hum9",
+		"type": "Land",
+		"RGB": [12, 12, 255],
+		"uniques": [
+			"Occurs at temperature between [-1.00] and [1.00] and humidity between [0.90] and [1.00]"
+		]
+	},
+
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"RGB": [102, 102, 102],
+		"uniques": [
+			"Occurs in chains at high elevations"
+		]
+	},
+	
+	
+	
+	// Terrain features
+	// Special
+	{
+		"name": "River",
+		"type": "TerrainFeature",
+		"gold": 1,
+		"movementCost": 0,
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor"
+		],
+	}
+]
